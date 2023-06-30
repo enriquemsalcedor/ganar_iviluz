@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "193601823546",
+    "project_id": "iviluz-86bae",
+    "storage_bucket": "iviluz-86bae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193601823546:android:d9d34c14cc37f2e20ba603",
+        "android_client_info": {
+          "package_name": "com.example.iviluz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193601823546-k74r5j4gt9r2f0sn1o81em7cs58cdqto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMCDUiqK-h1-lOIY6AmeMieILcxjK6p_g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193601823546-k74r5j4gt9r2f0sn1o81em7cs58cdqto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

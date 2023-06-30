@@ -1,0 +1,66 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/boton.xml" value="0.178" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/cancelar.xml" value="0.1675" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/custom_layout.xml" value="0.1805" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_baseline_add_comment_24.xml" value="0.172" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.167" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_baseline_notification_important_24.xml" value="0.172" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.172" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_menu_camera.xml" value="0.167" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.167" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/ovalado.xml" value="0.178" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/redondeado.xml" value="0.178" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/drawable/side_nav_bar.xml" value="0.167" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/activity_perfil_estatus_cero.xml" value="0.25" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/activity_sesion.xml" value="0.25" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/admin_fragment.xml" value="0.1526268115942029" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/cell_layout_conteo.xml" value="0.18" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/cell_layout_fecha_servicio.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/cell_layout_ganar.xml" value="0.33" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/cell_layout_lideres.xml" value="0.22" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/cell_layout_noticias.xml" value="0.21" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/cell_layout_usuario.xml" value="0.33" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/content_ganar.xml" value="0.1" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/conteo_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/equipo_fragment.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_comentario_ganar_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_conteo_dialog.xml" value="0.25908372827804105" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_editar_ganar_dialog.xml" value="0.2724014336917563" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_equipo_dialog.xml" value="0.14628623188405798" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_fecha_servicio_dialog.xml" value="0.13994565217391305" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_gallery.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_ganar_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_info_lider_dialog.xml" value="0.18" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_lider_dialog.xml" value="0.22" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_slideshow.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/fragment_usuario_dialog.xml" value="0.18773234200743494" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/ganar_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/lider_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/loading_dialog.xml" value="0.1598731884057971" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/nav_header_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/reporte_ganar_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/sin_conexion_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/layout/usuario_fragment.xml" value="0.22" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/menu/activity_main_drawer.xml" value="0.5" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1325" />
+        <entry key="..\:/Users/Enrique/AndroidStudioProjects/iviluz_app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

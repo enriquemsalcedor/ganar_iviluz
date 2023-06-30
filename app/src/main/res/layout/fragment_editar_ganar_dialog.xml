@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialogos.EditarGanarDialogFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editar datos de la Persona"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+                <EditText
+                    android:id="@+id/servicios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:drawablePadding="5dp"
+                    android:textAlignment="center"
+                    android:hint="Fecha del servicio" />
+
+                <EditText
+                    android:id="@+id/fecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Fecha del servicio" />
+
+                <EditText
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Nombre"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Telefono"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                    android:padding="8dp"
+                    android:inputType="phone" />
+
+                <EditText
+                    android:id="@+id/direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Direccion"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/peticion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:hint="Necesidad de oracion"
+                    android:drawablePadding="5dp"
+                    android:drawableLeft="@drawable/ic_baseline_back_hand_24"
+                    android:padding="8dp" />
+
+                <Spinner
+                    android:id="@+id/lider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="2dp"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/invitado_por"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:minWidth="240sp"
+                    android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
+                    android:drawablePadding="5dp"
+                    android:hint="¿Quien lo invito?"
+                    android:padding="8dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp">
+
+                    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:autoSizeMinTextSize="15sp"
+                        android:autoSizeMaxTextSize="17sp">
+
+                        <RadioButton
+                            android:id="@+id/contesto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="CONTESTÓ" />
+
+                        <RadioButton
+                            android:id="@+id/no_contesto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="NO CONTESTÓ"
+                            android:layout_marginLeft="8dp"/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/guardar"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttons"
+                        android:text="Guardar"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/cancelar"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttons"
+                        android:text="cancelar"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

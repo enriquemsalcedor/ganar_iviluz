@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dialogos.CambiarClaveDialogFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_redondo"
+                android:src="@drawable/ic_baseline_person_24" />
+
+            <TextView
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="25sp"
+                android:autoSizeMinTextSize="15sp"
+                android:text="NOMBRE"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="15sp"
+                android:text="NOMBRE"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:id="@+id/telefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoSizeMaxTextSize="17sp"
+                android:autoSizeMinTextSize="15sp"
+                android:text="NOMBRE"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"/>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="left"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/clave"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:minWidth="300sp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:hint="Contraseña nueva"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    />
+                <ImageButton
+                    android:id="@+id/showHideBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_baseline_remove_red_eye_24"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/claveConfim"
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:minWidth="300sp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@drawable/ic_baseline_lock_24"
+                    android:hint="Confirmar contraseña"
+                    android:inputType="textPassword"
+                    android:padding="8dp"
+                    />
+
+                <ImageButton
+                    android:id="@+id/showHideBtn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_baseline_remove_red_eye_24"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/actualizar"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttons"
+                    android:text="Cambiar"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/cancelar"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/buttons"
+                    android:text="cancelar"
+                    android:textColor="@color/white" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

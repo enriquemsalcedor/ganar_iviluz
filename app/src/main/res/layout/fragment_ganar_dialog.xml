@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".dialogos.LiderDialogFragment"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrar datos de la Persona"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <Spinner
+                    android:id="@+id/servicios"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="6dp"
+                    android:padding="8dp"/>
+
+                <EditText
+                    android:id="@+id/fecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:inputType="date"
+                    android:focusable="false"
+                    android:clickable="true"
+                    android:drawableLeft="@drawable/ic_baseline_calendar_today_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Fecha del servicio" />
+
+                <EditText
+                    android:id="@+id/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Nombre"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/telefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/ic_baseline_local_phone_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Teléfono"
+                    android:inputType="phone"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/direccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/ic_baseline_location_on_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Dirección"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/peticion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/ic_baseline_back_hand_24"
+                    android:drawablePadding="5dp"
+                    android:hint="Petición de oración"
+                    android:padding="8dp" />
+
+                <Spinner
+                    android:id="@+id/lider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="6dp"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/invitado_por"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="6dp"
+                    android:drawableLeft="@drawable/ic_baseline_emoji_people_24"
+                    android:drawablePadding="5dp"
+                    android:hint="¿Quién lo invito?"
+                    android:padding="8dp" />
+
+                <LinearLayout
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <Button
+                        android:id="@+id/guardar"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttons"
+                        android:text="Guardar"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/cancelar"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/buttons"
+                        android:text="cancelar"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>

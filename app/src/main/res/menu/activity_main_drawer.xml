@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_dashboard_24"
+            android:title="@string/menu_inicio" />
+        <item
+            android:id="@+id/nav_equipo"
+            android:icon="@drawable/ic_baseline_groups_24"
+            android:title="@string/menu_equipo" />
+        <item
+            android:id="@+id/nav_conteo"
+            android:icon="@drawable/ic_baseline_group_work_24"
+            android:title="@string/menu_conteo" />
+        <item
+            android:id="@+id/nav_ganar"
+            android:icon="@drawable/ic_baseline_follow_the_signs_24"
+            android:title="@string/menu_ganar" />
+        <item
+            android:id="@+id/nav_reporte_ganar"
+            android:icon="@drawable/ic_outline_library_books_24"
+            android:title="@string/menu_reporte_ganar" />
+        <item
+            android:id="@+id/nav_admin"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/menu_admin" />
+
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="@string/menu_usuarios" />
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_baseline_highlight_off_24"
+            android:title="@string/menu_login_out"
+            android:onClick="loginOut"/>
+
+
+    </group>
+
+</menu>

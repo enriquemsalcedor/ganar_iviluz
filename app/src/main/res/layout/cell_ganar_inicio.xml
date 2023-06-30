@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/redondeado"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/servicio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Primer\nServicio"
+                android:textSize="18dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/cantidad1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="100"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/bg_rounded"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/redondeado"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/servicio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Segundo\nServicio"
+                android:textSize="18dp"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/cantidad2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="100"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/bg_rounded"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@drawable/redondeado"
+            android:padding="10dp"
+            android:layout_margin="5dp"
+            >
+
+            <TextView
+                android:id="@+id/servicio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tercer\nServicio"
+                android:textSize="18dp"
+                android:lines="2"
+                android:gravity="center"
+                />
+            <TextView
+                android:id="@+id/cantidad3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="100"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:gravity="center"
+                android:background="@drawable/bg_rounded"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

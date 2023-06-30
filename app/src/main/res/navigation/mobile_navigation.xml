@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.iviluz_app.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.iviluz_app.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_lider"
+        android:name="com.example.iviluz_app.ui.lider.LiderFragment"
+        android:label="@string/menu_equipo"
+        tools:layout="@layout/lider_fragment" />
+    <fragment
+        android:id="@+id/nav_ganar"
+        android:name="com.example.iviluz_app.ui.ganar.GanarFragment"
+        android:label="@string/menu_ganar"
+        tools:layout="@layout/ganar_fragment" />
+    <fragment
+        android:id="@+id/nav_conteo"
+        android:name="com.example.iviluz_app.ui.conteo.ConteoFragment"
+        android:label="@string/menu_conteo"
+        tools:layout="@layout/conteo_fragment" />
+    <fragment
+        android:id="@+id/nav_reporte_ganar"
+        android:name="com.example.iviluz_app.ui.reporte_ganar.ReporteGanarFragment"
+        android:label="@string/menu_reporte_ganar"
+        tools:layout="@layout/reporte_ganar_fragment" />
+    <fragment
+        android:id="@+id/nav_usuario"
+        android:name="com.example.iviluz_app.ui.usuarios.UsuarioFragment"
+        android:label="@string/menu_usuarios"
+        tools:layout="@layout/usuario_fragment" />
+    <fragment
+        android:id="@+id/nav_equipo"
+        android:name="com.example.iviluz_app.ui.equipo.EquipoFragment"
+        android:label="@string/menu_equipo"
+        tools:layout="@layout/equipo_fragment" />
+    <fragment
+        android:id="@+id/nav_admin"
+        android:name="com.example.iviluz_app.ui.admin.AdminFragment"
+        android:label="@string/menu_admin"
+        tools:layout="@layout/admin_fragment" />
+</navigation>
